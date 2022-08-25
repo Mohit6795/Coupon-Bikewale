@@ -1,0 +1,1108 @@
+/* body{
+    background: #f5f5f5;
+} */
+/* header CSS */
+#navbar {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 3;
+}
+
+.navbar-button{
+    height: 20px;
+    width: 2%;
+    margin-left: 1%;
+    margin-top: 20px;
+    float: left;
+}
+.navbar-button:hover{
+    transform: scale(0.9);
+}
+.darky{
+    height: 40px;
+    border: none;
+    margin-left: 28%;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #000000;
+}
+.darky>img{
+    height: 30px;
+    border-radius: 10px;
+    
+}
+#vb{
+    display: block;
+    float: right;
+    margin-top: 9px;
+    font-weight: bolder;
+    color: #ccc;
+}
+
+#navbar>img{
+    height: 160px;
+    width: 12%;
+    float: left;
+    margin-left: 17px;
+    margin-top: -49px;
+
+}
+#yourloc{
+    border: 1px solid white;
+    height: 30px;
+    width: 8% ;
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#yourloc>span{
+    color: white;
+    margin-left: 1px;
+    margin-top: 5px;
+    position: absolute;
+
+}
+#yourloc>img{
+    height: 21px;
+    width: 17%;
+    margin-top: 5px;
+    margin-left: 76px;
+}
+#yourloc>img:hover{
+    transform: scale(0.9);
+}
+#login{
+    /* border: 1px solid white; */
+    height: 30px;
+    width: 8% ;
+    float: right;
+    margin-right: 2%;
+    margin-top: 15px;
+    color: white;
+}
+#login>span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 6px;
+    position: absolute;
+    cursor: pointer;
+}
+#login>span:hover{
+    transform: scale(1.1);
+
+}
+/* coupon */
+#mycoupon{
+   border: 2px rgb(233, 233, 233) groove;
+    height: 400px;
+    width: 70%;
+    position: absolute;
+    background-image: url(img/Scrambler\ Icon\ Grab\ Rail.jpg);
+    background-size: 100% 400px;
+    z-index: 10;
+    margin-left: 15%;
+    margin-top: 40px;
+    display: none;
+    
+}
+
+#mycoupon>button{
+    background-color: rgba(0, 0, 0, 0.803);
+    border-radius: 8px;
+    color: #ffffff;
+    float: right;   
+}
+#aboutducati{
+    margin-top: 30px;
+    float: left;
+    /* border: #000000 2px solid; */
+    height: 220px;
+    width: 35%;
+}
+#aboutducati>h2{
+    background-color: #ffffff9e;
+    height: 37px;
+    width: 30%;
+    padding: 4px;
+    color: rgba(0, 0, 0, 0.819);
+    font-family: cursive;
+}
+#aboutducati>h2:hover{
+    transform: scale(0.97);
+}
+
+#aboutducati>h3{
+    background-color: #000000c6;
+    height: 33px;
+    width: 71%;
+    font-size: 17px;
+    padding: 4px;
+    padding-top: 7px;
+    font-family: cursive;
+    color: white;
+}
+#aboutducati>h3:hover{
+    transform: scale(0.97);
+}
+#aboutducati>h4{
+    background-color: #ff0000c8;
+    height: 24px;
+    width: 78%;
+    padding: 8px;
+    font-family: cursive;
+    color: white;
+    transition: width 2s, height 4s;
+}
+#aboutducati>h4:hover{
+    width: 300px;
+  height: 300px;
+}
+#offers{
+    margin-top: 30px;
+    margin-left: 90px;
+    border-radius: 10px;
+    float: left;
+    height: 350px;
+    width: 50%;
+    background-color: #000000c6;
+}
+#offers>img{
+    height: 90px;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+.p1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+#offers>p>span{
+    border: 2px solid #bfbfbf;
+    color: #000000;
+    background-color: #bfbfbf;
+    width: 100%;
+    border-radius: 3px;
+}
+.p2{
+    text-align: center;
+    color: #ffff00c6;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.buttonoff {
+    background-color: #ffff00c6; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 35%;
+}
+.buttonoff:hover{
+    transform: scale(0.97);
+}
+  
+/* Search bar CSS */
+
+#searchbar{
+    /* border: 2px solid rgb(32, 42, 114); */
+    height: 400px;
+    width: 100%;
+    background-image: url(img/home-top-banner-2.jpg);
+    background-size: 100% 400px ;
+    background-repeat: no-repeat;
+}
+#searchbar>h1{
+    color: white;
+    font-size: 34px;
+    margin-left: 35%;
+    font-weight: 400;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#searchbar>p{
+    font-size: 20px;
+    color: white;
+    margin-left: 25%;
+    margin-top: 80px;
+    position: absolute;
+}
+
+#searchhere{
+    /* border: 2px white double; */
+    height: 45px;
+    width: 39%;
+    margin-left: 365px;
+    margin-top: 180px;
+    position: absolute;
+}
+#searchbox{
+    height: 40px;
+    width: 80%; 
+    position: absolute;
+    float: left;
+}
+#btn1{
+    height: 45px;
+    width: 18%;
+    float: left;
+    position: absolute;
+    margin-left: 402px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 15px;
+    background-color: #f85649;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Browse CSS */
+
+#browseby{
+    /* border: 2px solid rgb(116, 90, 141); */
+    height: 500px;
+    width: 100%;
+        
+}
+#heading{
+    /* color: #000000; */
+    font-size: 22px;
+    margin-left: 43%;
+    position: absolute;
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-weight: 700;
+    margin-top: 33px;
+}
+#selectbox{
+    /* border: #000000 solid 1px; */
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+    /* background-color: white; */
+}
+#selectnow{
+    /* border: #000000 solid 1px; */
+    height: 40px;
+    width: 100%;
+    /* background-color: white; */
+    border-bottom: 1px solid #ccc;
+    
+}
+#discoverby{
+    list-style: none;     
+    cursor: pointer;
+}
+
+.ul1{
+    margin-top: -19px;
+    float: left;
+    margin-left: 141px;
+    font-family: sans-serif;
+    /* color: #0000009c; */
+    font-stretch: extra-condensed;
+    
+    
+}
+.ul1:hover{
+    transform: scale(0.9);
+}
+#bydemand{
+    list-style: none;
+    position: absolute;
+    
+}
+.selectbrand{
+    float: left;
+    margin-left: 66px;
+    padding-block: 21px;
+}
+.brandlogo{
+    display: block;
+}
+.brandlogo>img{
+    border-radius: 6px;
+}
+.brandlogotitle{
+    display: block;
+    margin-left: 34px;
+    margin-top: 17px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: gray;
+    font-size: 17px;
+}
+.selectbrand>a{
+    text-decoration: none;
+}
+#brandlogotitleRE{
+    display: block;
+    margin-left: 4px;
+    margin-top: 17px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: gray;
+    font-size: 17px;
+}
+.brandlogo:hover{
+    transform: scale(1.1);
+}
+.viewbrandbtn{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 438px;
+    height: 30px;
+    width: 15%;
+    background-color: white;
+    color: #3799a7;
+    border: 1px solid #3799a7;
+    cursor: pointer;
+}
+.viewbrandbtn:hover{
+    transform: scale(0.9);
+
+}
+
+
+/* Featured CSS */
+#featured{
+    /* border: 2px coral solid; */
+    height: 620px;
+    width: 100%;
+
+}
+#heading2{
+    /* color: #000000; */
+    font-size: 22px;
+    margin-left: 45%;
+    position: absolute;
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-weight: 700;
+    margin-top: 33px;
+}
+#featuredbox{
+    height: 510px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+    /* background-color: white; */
+    /* border: #000000 1px solid; */
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+}
+#featureby{
+    height: 40px;
+    width: 100%;
+    /* background-color: white; */
+    border-bottom: 1px solid #ccc; 
+    cursor: pointer;
+}
+#bestfeatured>li{ 
+    list-style: none;
+    padding-left: 20px;
+    
+}
+#tile1{
+    position: absolute;
+    list-style: none;
+    margin-top: 25px;
+}
+.bikedit{
+    /* border: 1px solid gray; */
+    border: 2px solid #f6f6f6;
+    height: 360px;
+    width: 25%; 
+    float: left;
+    margin-left: 50px;
+
+}
+.bikeimg{
+    height: 163px;
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 1%;
+    
+}
+.ditsection{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.bikename{
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Open Sans',sans-serif,Arial;
+}
+.shortspecification{
+    text-decoration: none;
+    font-size: 14px;
+    color: #a8afb3;
+    font-family: 'Open Sans',sans-serif,Arial;
+}
+.pricetitle{
+    display: block;
+    font-size: 14px;
+    color: #82888b;
+    font-family: 'Open Sans',sans-serif,Arial;
+
+
+}
+.onlineprice{
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #4d5057;
+    font-weight: 700;
+    font-family: 'Open Sans',sans-serif,Arial;
+    float: left;
+}
+.font14{
+    float: left;
+    margin-top: 7px;
+    margin-left: 2%;
+    font-size: 14px;
+    color: #4d5057;
+    font-weight: 700;
+    font-family: 'Open Sans',sans-serif,Arial;
+    
+}
+.btnforprice{
+    display: block;
+}
+.pricebtn{
+    background: #f04031;
+    color: #fff;
+    margin-left: 2px;
+    margin-top: 17%;
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    
+}
+.pricebtn:hover{
+    transform: scale(1.1);
+}
+.viewmorebtn{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 435px;
+    height: 30px;
+    width: 15%;
+    background-color: white;
+    color: #3799a7;
+    border: 1px solid #3799a7;
+    cursor: pointer;
+
+}
+.viewmorebtn:hover{
+    transform: scale(0.9);
+
+}
+
+#chackprice-banner{
+    /* border: 1px solid rebeccapurple; */
+    height: 400px;
+    width: 100%;
+    background-image: url(img/back\ ground\ baner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+
+    
+}
+#borderonbanner{
+    /* border: 1px black solid; */
+    height: 250px;
+    width: 33%;
+    margin-top: 70px;
+    float: left;
+    margin-left: 10%;
+    position: absolute;
+    background: #fff;
+}
+#heading3{
+    font-size: 22px;
+    font-weight: 700;
+    /* color: #2a2a2a; */
+    font-family: 'Open Sans',sans-serif,Arial;
+    display: block;
+    margin-left: 4%;
+}
+#makemodelfinalprice{
+    width: 91%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 13px;
+    display: block;
+    height: 41px;
+    margin-left: 4%;
+
+}
+#loc-2{
+    display: block;
+    
+}
+#selectloc-2{
+    width: 92%;
+    background-color: #fff;
+    border-radius: 2px;
+    font-size: 13px;
+    height: 45px;
+    margin-left: 4%;
+    margin-top: 22px;
+    border: none;
+    border: 1px solid #ccc;
+    color: #7c8183;
+}
+#finalpricebtn{
+    height: 45px;
+    width: 48%;
+    background-color: #e34c42;
+    color: white;
+    border: none;
+    margin-left: 4%;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Best bikes of month CSS */
+
+#bestofmonth{
+    /* border: 2px rgb(37, 31, 29) solid; */
+    height: 620px;
+    width: 100%; 
+}
+#heading4{
+        /* color: #000000; */
+        font-size: 22px;
+        margin-left: 40%;
+        position: absolute;
+        font-family: 'Open Sans',sans-serif,Arial;
+        font-weight: 700;
+        margin-top: 33px;
+}
+#bestbikebox{
+    height: 510px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+    /* background-color: white; */
+    /* border: #000000 1px solid; */
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+}
+#bestby{
+    height: 40px;
+    width: 100%;
+    /* background-color: white; */
+    border-bottom: 1px solid #ccc; 
+    cursor: pointer;
+}
+#selectbybest{
+    list-style: none;
+    padding-left: 20px;
+}
+.ul2{
+    margin-top: -19px;
+    float: left;
+    margin-left: 100px;
+    font-family: sans-serif;
+    /* color: #0000009c; */
+    font-stretch: extra-condensed;
+}
+
+/* CSS for Compare section */
+#comparebike{
+    /* border: 2px rgb(37, 31, 29) solid; */
+    height: 450px;
+    width: 100%;
+}
+#heading5{
+    /* color: #000000; */
+    font-size: 22px;
+    margin-left: 44%;
+    position: absolute;
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-weight: 700;
+    margin-top: 33px;
+}
+#maincomparebox{
+    height: 350px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+    /* background-color: white; */
+    /* border: #000000 1px solid; */
+}
+#sections{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    float: left;
+}
+#comparebox1{
+    height: 250px;
+    width: 44%;
+    margin-top: 10px;
+    position: absolute;
+    border: 2px solid #f6f6f6;
+    float: left; 
+    margin-left: -10px;
+    
+}
+#comparebox2{
+    height: 250px;
+    width: 44%;
+    margin-left: 45%;
+    margin-top: 10px;
+    position: absolute;
+    border: 2px solid #f6f6f6;
+}
+.compbikeimg1{
+    height: 100px;
+    width: 43%;
+    display:block;
+    margin-top: 2%;
+    margin-left: 12px;
+    float: left;
+}
+#vs{
+    height: 20px;
+    width: 4%;
+    margin-top: 52px;
+    float: left;
+    margin-left: 11px;
+}
+.compbikeimg2{
+    height: 100px;
+    width: 43%;
+    display:block;
+    margin-top: 2%;
+    margin-left: 11px;
+    float: left;
+}
+#apachebikedit{
+    /* border: 1px solid #171313; */
+    height: 73px;
+    width: 43%;
+    margin-top: 10px;
+    margin-left: 11px;
+    float: left;
+}
+.bikename-1{
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Open Sans',sans-serif,Arial;
+    display: block;
+}
+.pricetitle-1{
+    display: block;
+    font-size: 12px;
+    color: #82888b;
+    font-family: 'Open Sans',sans-serif,Arial;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.onlineprice-1{
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #4d5057;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif,Arial;
+    float: left;
+}
+#bmwbikedit{
+    /* border: 1px solid #171313; */
+    height: 73px;
+    width: 43%;
+    margin-top: 10px;
+    margin-left: 39px;
+    float: left;
+}
+.pricebtn-comp{
+    background: #f04031;
+    color: #fff;
+    margin-left: 45px;
+    margin-top: 43%;
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    width: 80%;
+    display: block;
+    cursor: pointer;
+    
+}
+.pricebtn-comp:hover{
+    transform: scale(1.1);
+}
+#viewmorebtn-comp{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 425px;
+    height: 30px;
+    width: 15%;
+    background-color: white;
+    color: #3799a7;
+    border: 1px solid #3799a7;
+}
+#viewmorebtn-comp:hover{
+    transform: scale(0.9);
+}
+
+/* CSS for User reviews */
+#reviews{
+    /* border: 1px solid #3799a7; */
+    height: 450px;
+    width: 100%;
+}
+#heading6{
+    /* color: #000000; */
+    font-size: 22px;
+    margin-left: 44%;
+    position: absolute;
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-weight: 700;
+    margin-top: 33px; 
+}
+#reviewsection{
+    height: 350px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+    /* background-color: white; */
+    /* border: #000000 1px solid; */
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+}
+#intro-title{
+    font-size: 14px;
+    color: #787878;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif,Arial;
+    margin-top: 10px;
+    
+}
+#searchbox-1{
+    height: 39px;
+    width: 42%; 
+    position: absolute;
+    float: left;
+    margin-left: 22%;
+}
+#btn-reviews{
+    height: 45px;
+    width: 15%;
+    float: left;
+    position: absolute;
+    margin-left: 634px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 15px;
+    background-color: #f85649;
+    color: white;
+    border: none;
+    border-bottom: #7c8183 1px solid;
+    border-bottom: #7c8183 1px solid;
+    cursor: pointer;
+}
+
+.card{
+    border: 2px solid #f6f6f6;
+    float: left;
+    height: 180px;
+    width: 25%;
+    margin-left: 45px;
+    margin-top: 80px;
+    padding: 10px;
+}
+.card-title{
+    margin-top: 10px;
+    text-decoration: none;
+    /* color: #2a2a2a; */
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Open Sans',sans-serif,Arial;
+}
+.card-text{
+    color: #756b6b;
+}
+.text-Secondary{
+    color: #756b6b;
+    font-family: 'Open Sans',sans-serif,Arial;
+}
+.buttonre {
+    background-color: white;
+    color: black;
+    background-color:  #212887;
+    border: none;
+    height: 30px;
+    width: 60%;
+  }
+.buttonre>a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+.ul3{
+    margin-top: -19px;
+    float: left;
+    margin-left: 160px;
+    font-family: sans-serif;
+    /* color: #0000009c; */
+    font-stretch: extra-condensed;
+}
+.card1{
+    margin-left: 30px;
+}
+.card-body1{
+    height: 200px;
+    width: 94%;
+    border: 2px solid #f6f6f6;
+    margin-top: 10px;
+    padding: 1%;
+}
+/* CSS For News */
+#news{
+    /* border: 1px solid #000000; */
+    height: 890px;
+    width: 100%;
+}
+#newssection{
+    height: 780px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+    /* background-color: white; */
+    /* border: #000000 1px solid; */
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+}
+#newscol{
+    argin
+}
+.newsimg{
+    border: 2px solid #f6f6f6;
+    height: 175px;
+    width: 30%;
+    float: left;
+    
+}
+.newsimg>img{
+    height: 175px;
+    width: 100%;
+}
+.newsdit{
+    padding: 5px;
+    margin-left: 10px;
+    float: left;
+    height: 175px;
+    width: 65%;
+}
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: #333;
+    
+}
+#footsec{
+    /* border: #212887 2px solid; */
+    height: 320px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    position: absolute;
+    
+}
+#socialid{
+    /* border: #3799a7 1px solid; */
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+#join1{
+    /* border: #3799a7 1px solid; */
+    height: 20px;
+    width: 100%;
+}
+#join{
+    font-family: 'Open Sans',sans-serif,Arial;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 5px;
+    display: block;
+    margin-left: 15px;
+}
+.socialimg{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 7%;
+    margin-left: 14px;
+    
+}
+#socialapps{
+    /* border: #3799a7 1px solid; */
+    height: 100px;
+    width: 30%;
+    float: left;
+    margin-left: 400px;
+}
+.socialimg1{
+    height: 40px;
+    width: 40%;
+    padding: 14px;
+    border-radius: 2rem 2rem 2rem 2rem;
+
+}
+.social>a{
+    text-decoration: none;
+}
+
+#allsiteslogo{
+    margin-top: 100px;
+    border-bottom: 1px solid #e2e2e2; ;
+   
+}
+#allsite{
+    list-style: none;
+    position: absolute;
+    
+}
+.site1{
+    display: block;
+}
+.site1>img{
+    height: 80px;
+    width: 100px;
+    margin: 1px;
+    
+}
+.site1>img:hover{
+    transform: scale(1.2);
+}
+#copyr{
+    border-top: 1px solid #e2e2e2; 
+    position: absolute;
+    /* border: 1px red solid; */
+    height: 80px;
+    width: 100%;
+    margin-top: 150px;
+}
+#copyr>span{
+    color: #ccc;
+    margin-top: 30px;
+    position: absolute;
+}
+#cop{
+    margin-left: 91%;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>Navbarstiky */
+
+
+ 
+  
+.content{ 
+    overflow: hidden;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+  
+.sticky + .content {
+    padding-top: 600px;
+}

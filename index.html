@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Wale</title>
+    <link rel="stylesheet" href="Bikewale.css">
+    <link rel="icon" href="img/My project icon.png" >
+    <style>
+        body{
+            background-color: #f5f5f5;
+            color: rgb(0, 0, 0);
+        }
+        .mydark{
+            background-color: rgba(0, 0, 0, 0.849);
+            color: white;
+        }
+    </style>
+    <script>
+        const changeMode=()=>{
+            let mybody = document.body;
+            mybody.classList.toggle('mydark')
+
+        }
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        function loadCoupon() {
+            document.getElementById('mycoupon').style.display="block";
+            document.getElementById('searchbar').style.opacity="0.4";
+            document.getElementById('browseby').style.opacity="0.4";
+
+        }
+        function closeCoupon() {
+            document.getElementById('mycoupon').style.display="none";
+            document.getElementById('searchbar').style.opacity="1";
+            document.getElementById('browseby').style.opacity="1";
+        }
+    </script>
+    <script>
+       
+    </script>
+
+</head>
+<body class="mydark" >
+    <header>
+        <div id="navbar">
+            <span id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </span>
+            <span onclick="openNav()"><a href="#navbtn"><img class="navbar-button" src="img/navbarbtn.png" alt="Navbarbtn"></a></span>
+            <img src="img/logo.png" alt="Logo">
+            <div id="login">
+                <span>Login</span> 
+            </div>
+            <button onclick="changeMode()" class="darky"><img src="img/darky.png" alt=""> <span id="vb">DarkMode</span> </button>
+            <div id="yourloc">
+                <span>Select City </span>
+                <img src="img/locpng.png">
+            </div>            
+        </div>
+    </header>
+    <div id="mycoupon">
+        <button  onClick="closeCoupon()">&times;</button>
+        <div id="aboutducati">
+        <h2>Ducati</h2>
+        <h3>Scrambler Icon Grab Rail</h3>
+        <h4>#Ride the Dream - Book Now</h4>
+        </div>
+        <div id="offers">
+            <img src="img/getset.png" alt="Helmet">
+            <p class="p1">GET SET HELMET | <span>Register Now</span></p>
+            <p class="p2">Get a free HELMET on your first booking with your Dream bike.</p>
+            <button class="buttonoff button2">Book Now</button>
+        </div>
+    </div>
+
+        <!-- Search bar -->
+        <div id="searchbar">
+            <h1>FIND THE RIGHT BIKE</h1>
+            <p>Get Comprehensive Information on Bike Prices, Specs, Reviews & More!</p>
+            <Div id="searchhere" >
+                <input id="searchbox" type="text" placeholder="Search your bike here" aria-label="Search your bike">
+                <input id="btn1" type="button" value="Search">
+            </Div>
+        </div>
+        
+        <div id="browseby">
+            <h1 id="heading">Browse bike by</h1>
+            <div id="selectbox">
+                <div id="selectnow">
+                    <ul id="discoverby">
+                        <li class="ul1"><h3>Brand</h3></li>
+                        <li class="ul1"><h3>Budget</h3></li>
+                        <li class="ul1"><h3>Mileage</h3></li>
+                        <li class="ul1"><h3>Body Style</h3></li>
+                    </ul>
+                </div>
+
+                <div>              
+                    <ul id="bydemand">
+                        <li class="selectbrand">
+                            <a href="#tvs">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/tvs.webp" alt="TVS bikes">
+                                </span>
+                                <span class="brandlogotitle">TVS</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#bajaj">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/bajaj.webp" alt="Bajaj bikes">  
+                                </span>
+                                <span class="brandlogotitle">Bajaj</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#bmw">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/bmw.webp" alt="BMW bikes">
+                                </span>
+                                <span class="brandlogotitle">BMW</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#hero">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/hero.webp" alt="Hero bikes">
+                                </span>
+                                <span class="brandlogotitle">Hero</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#Honda">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/honda.webp" alt="Honda bikes">
+                                </span>
+                                <span class="brandlogotitle">Honda</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#Yezdi">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/yezdi.webp" alt="Yezdi bikes">
+                                </span>
+                                <span class="brandlogotitle">Yezdi</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#KTM">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/ktm.webp" alt="KTM bikes">
+                                </span>
+                                <span class="brandlogotitle">KTM</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#RoyalEnfield">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/royal-enfield.webp" alt="RoyalEnfield bikes">
+                                </span>
+                                <span id="brandlogotitleRE">Royal Enfield</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#suzuki">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/suzuki.webp" alt="suzuki bikes">
+                                </span>
+                                <span class="brandlogotitle">Suzuki</span>
+                            </a>
+                        </li>
+                        <li class="selectbrand">
+                            <a href="#Yamaha">
+                                <span class="brandlogo">
+                                    <img src="brandslogo/yamaha.webp" alt="Yamaha bikes">
+                                </span>
+                                <span class="brandlogotitle">Yamaha</span>
+                            </a>
+                        </li>                                            
+                    </ul>
+                    <button class="viewbrandbtn">
+                        View more Brand>
+                    </button>  
+                </div>
+            </div>
+        </div>
+
+        <div id="featured">
+            <h1 id="heading2">  Fetured bikes</h1>
+            <div id="featuredbox">
+                <div id="featureby">
+                    <ul id="bestfeatured">
+                        <li class="ul1"><h3>Most Popular</h3></li>
+                        <li class="ul1"><h3>New Launches</h3></li>
+                        <li class="ul1"><h3>Upcoming</h3></li>
+                    </ul>
+                </div>
+                <div>              
+                    <ul id="tile1">
+                        <li class="bikedit">
+                            <a href="#bmw">
+                                <span >
+                                    <img class="bikeimg" src="feature or best bikes img/g310-rr-right-front-three-quarter.webp" alt="BMW bike">
+                                </span>
+                            </a>
+                            <Div class="ditsection">
+                                <a class="bikename" href="#">
+                                    <span class="bikename">BMW G310 RR</span>
+                                </a>
+                                <p class="shortspecification">312 cc, 33.5 bhp, 174kg</p>
+                                <div>
+                                    <span class="pricetitle">Avg. Ex-showroom price</span>
+                                    <span class="onlineprice">₹ 2,85,000</span>
+                                </div>
+                                <span class="font14">onwards</span> 
+                                <div>
+                                    <button class="pricebtn">Check on-road price</button>
+                                </div>
+                            </Div>
+                        </li>
+
+                        <li class="bikedit">
+                            <a href="#Ronin">
+                                <span >
+                                    <img class="bikeimg" src="feature or best bikes img/ronin-225-right-front-three-quarter.webp" alt="Ronin">
+                                </span>
+                            </a>
+                            <Div class="ditsection">
+                                <a class="bikename" href="#">
+                                    <span class="bikename">TVS Ronin 225 </span>
+                                </a>
+                                <p class="shortspecification">226 cc, 20 bhp, 159kg</p>
+                                <span class="pricetitle">Avg. Ex-showroom price</span>
+                                <div>
+                                    <span class="onlineprice">₹ 1,49,000</span>
+                                    <span class="font14">onwards</span>
+                                </div> 
+                                <div>
+                                    <button class="pricebtn">Check on-road price</button>
+                                </div>
+                            </Div>
+                        </li>
+
+                        <li class="bikedit">
+                            <a href="#R15">
+                                <span >
+                                    <img class="bikeimg" src="feature or best bikes img/R15 V4 Model Image.jpg" alt="R15">
+                                </span>
+                            </a>
+                            <Div class="ditsection">
+                                <a class="bikename" href="#">
+                                    <span class="bikename">R15 V4</span>
+                                </a>
+                                <p class="shortspecification">155 cc, 45kmpl, 18.1 bhp, 142kg</p>
+                                <span class="pricetitle">Avg. Ex-showroom price</span>
+                                <div>
+                                    <span class="onlineprice">₹ 1,78,000</span>
+                                    <span class="font14">onwards</span>
+                                </div>                             
+                                <div>
+                                    <button class="pricebtn">Check on-road price</button>
+                                </div>
+                            </Div>
+                        </li>
+                    </ul>
+                    <button class="viewmorebtn">
+                        View all Bikes >
+                    </button>                                   
+                </div>
+            </div>
+        </div>
+        
+        <div id="chackprice-banner"> 
+            <div id="borderonbanner">
+                <h1 id="heading3">On-road price</h1>
+                <input type="text" placeholder="Search Make and Model" id="makemodelfinalprice">
+                <div id="loc-2">
+                    <select  id="selectloc-2">
+                        <option>--Select--</option>
+                        <option>B-Road,Jodhpur</option>
+                        <option>C-Road,Jodhpur</option>
+                        <option>Ratanada</option>
+                        <option>Jaljog Chok</option>
+                        <option>Chandni Market</option>
+                        <option>Mandore</option>
+                    </select>
+                </div>
+                <button id="finalpricebtn">Check On-Road Price</button>
+            </div>
+        </div>
+
+        <div id="bestofmonth">
+            <h1 id="heading4">Best bikes of August 2022</h1>
+            <div id="bestbikebox">
+                <div id="bestby">
+                    <ul id="selectbybest">
+                        <li class="ul2"><h3>Scooters</h3></li>
+                        <li class="ul2"><h3>Mileage Bikes</h3></li>
+                        <li class="ul2"><h3>Sports</h3></li>
+                        <li class="ul2"><h3>Cruisers</h3></li>
+                        <li class="ul2"><h3>Electric bikes</h3></li>
+                    </ul>
+                </div>
+                <div>              
+                    <ul id="tile1">
+                        <li class="bikedit">
+                            <a href="#">
+                                <span >
+                                    <img class="bikeimg" src="feature or best bikes img/ray-right-front-three-quarter-2.webp" alt="Yamaha Ray ZR">
+                                </span>
+                            </a>
+                            <Div class="ditsection">
+                                <a class="bikename" href="#">
+                                    <span class="bikename">Yamaha Ray ZR</span>
+                                </a>
+                                <p class="shortspecification">125 cc, 8.04 bhp, 98kg</p>
+                                <span class="pricetitle">Avg. Ex-showroom price</span>
+                                <div>
+                                    <span class="onlineprice">₹ 82,247</span>
+                                    <span class="font14">onwards</span>
+                                </div>
+                                <div>
+                                    <button class="pricebtn">Check on-road price</button>
+                                </div>
+                            </Div>
+                        </li>
+
+                        <li class="bikedit">
+                            <a href="#">
+                                <span >
+                                    <img class="bikeimg" src="feature or best bikes img/450x-gen-3-right-front-three-quarter.webp" alt="Ather 450X">
+                                </span>
+                            </a>
+                            <Div class="ditsection">
+                                <a class="bikename" href="#">
+                                    <span class="bikename">TVS Ronin 225 </span>
+                                </a>
+                                <p class="shortspecification">80 cc, 108 Km, 112kg, 5.4 Hrs</p>
+                                <span class="pricetitle">Avg. Ex-showroom price</span>
+                                <div>
+                                    <span class="onlineprice">₹ 1,29,876</span>
+                                    <span class="font14">onwards</span>
+                                </div>                             
+                                <div>
+                                    <button class="pricebtn">Check on-road price</button>
+                                </div>
+                            </Div>
+                        </li>
+
+                        <li class="bikedit">
+                            <a href="#">
+                                <span >
+                                    <img class="bikeimg" src="feature or best bikes img/ntorq-125-right-front-three-quarter.webp" alt="TVS Ntorq 125">
+                                </span>
+                            </a>
+                            <Div class="ditsection">
+                                <a class="bikename" href="#">
+                                    <span class="bikename">TVS Ntorq 125</span>
+                                </a>
+                                <p class="shortspecification">124.8 cc, 9.25 bhp, 118kg</p>
+                                <span class="pricetitle">Avg. Ex-showroom price</span>
+                                <div>
+                                    <span class="onlineprice">₹ 83,779</span>
+                                    <span class="font14">onwards</span>
+                                </div>
+                                
+                                <div>
+                                    <button class="pricebtn">Check on-road price</button>
+                                </div>
+                            </Div>
+                        </li>
+                    </ul>
+                    <button class="viewmorebtn">
+                        View all Bikes >
+                    </button>                                   
+                </div>
+            </div>
+        </div>   
+
+        <div id="comparebike">
+            <h1 id="heading5">
+                Compare bikes
+            </h1>
+            <div id="maincomparebox">
+                <ul id="sections">
+                    <li id="comparebox1">
+                        <a href="#">
+                            <span>
+                                <img class="compbikeimg1" src="feature or best bikes img/Apache RR310 Right Front Three Quarter.jpg" alt="Apache">
+                            </span>
+                            <span>
+                                <img id="vs" src="img/vs-icon-32.png" alt="VS">
+                            </span>
+                            <span>
+                                <img class="compbikeimg2" src="feature or best bikes img/g310-rr-right-front-three-quarter.webp" alt="BMW G310">
+                            </span>
+                            <div id="apachebikedit">
+                                <a class="bikename" href="#">                              
+                                <span class="bikename-1">TVS Apache RR310</span>                               
+                                    <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                    <span class="onlineprice-1">₹ 2,64,980</span>                            
+                                </a>
+                            </div>
+                            <div id="bmwbikedit">
+                                <a class="bikename" href="#">                              
+                                <span class="bikename-1">BMW G310 RR</span>                               
+                                    <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                    <span class="onlineprice-1">₹ 2,85,000</span>                            
+                                </a>
+                            </div>
+                        </a>
+                        <div>
+                            <button class="pricebtn-comp">Check on-road price</button>
+                        </div>
+                    </li>
+                    <li id="comparebox2">
+                        <a href="#">
+                            <span>
+                                <img class="compbikeimg1" src="feature or best bikes img/Apache RR310 Right Front Three Quarter.jpg" alt="Apache">
+                            </span>
+                            <span>
+                                <img id="vs" src="img/vs-icon-32.png" alt="VS">
+                            </span>
+                            <span>
+                                <img class="compbikeimg2" src="feature or best bikes img/RC 390 Left Front Three Quarter.jpg" alt="BMW G310">
+                            </span>
+                            <div id="apachebikedit">
+                                <a class="bikename" href="#">                              
+                                <span class="bikename-1">TVS Apache RR310</span>                               
+                                    <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                    <span class="onlineprice-1">₹ 2,64,980</span>                            
+                                </a>
+                            </div>
+                            <div id="bmwbikedit">
+                                <a class="bikename" href="#">                              
+                                <span class="bikename-1">KTM RC 390</span>                               
+                                    <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                    <span class="onlineprice-1">₹ 3,13,534</span>                            
+                                </a>
+                            </div>
+                        </a>
+                        <div>
+                            <button class="pricebtn-comp">Check on-road price</button>
+                        </div>
+                    </li>
+                </ul>
+                <button id="viewmorebtn-comp">
+                    View all Bikes >
+                </button>
+            </div>
+        </div>
+        <div id="reviews">
+            <h1 id="heading6">User Reviews</h1>
+            <div id="reviewsection">
+                <p id="intro-title">
+                    3000+ unbiased, verified reviews from bike owners. Know the pros and cons of 200+ bike models from real owners.
+                </p>
+                <Div id="readreviews" >
+                    <input id="searchbox-1" type="text" placeholder="Search bike e.g. Bajaj Dominar 400" aria-label="Search your bike reviews">
+                    <input id="btn-reviews" type="button" value="Search Reviews">
+                </Div>
+                <div  class="d-flex p-5 mt-5">
+                    <div class="card " >
+                        <div class="card-body">
+                            <h5 class="card-title">Pure ev scooter review</h5>
+                            <p class="card-text">Huge sound in battery cabinet, no proper fixture to hold the battery...</p>
+                            <h6 class="text-Secondary">3 week ago</h6>
+                            <button class="buttonre">
+                                <a href="#" class="btn btn-primary">Read full review</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <div class="card-body">
+                            <h5 class="card-title">Hero Destini 125</h5>
+                            <p class="card-text">Vibrates at 30_50 speed.Design-wise is ok. Major biggest th....</p>
+                            <h6 class="text-Secondary">4 week ago</h6>
+                            <button class="buttonre">
+                                <a href="#" class="btn btn-primary">Read full review</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">TVS Apache RTR 160 4V</h5>
+                            <p class="card-text">Go with apache...They treat you like premium customers...And...</p>
+                            <h6 class="text-Secondary">5 week ago</h6>
+                            <button class="buttonre">
+                                <a href="#" class="btn btn-primary">Read full review</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="news">
+            <h1 id="heading6">News/Updates</h1>
+            <div id="newssection">
+                <div id="featureby">
+                    <ul id="bestfeatured">
+                        <li class="ul3"><h3>News</h3></li>
+                        <li class="ul3"><h3>Expert Reviews</h3></li>
+                        <li class="ul3"><h3>Videos</h3></li>
+                    </ul>
+                </div>
+                <div  class="d-flex p-5 mt-5">
+                    <div class="card1 " >
+                        <div class="card-body1">
+                            <div class="newsimg">
+                                <img src="img/bmw-left-side-view0.webp" alt="img">
+                            </div>
+                            <div class="newsdit">
+                                <h5 class="card-title">2022 BWW R 1250 RT launched in India at Rs 23.95 lakh</h5>
+                                <p class="card-text">
+                                    Deliveries of the bike have commenced this month for customers who have already booked it through the authorised dealerships. 
+                                </p>
+                                <h6 class="text-Secondary">Today</h6>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card1 " >
+                        <div class="card-body1">
+                            <div class="newsimg">
+                                <img src="img/right-side-view1.webp" alt="img">
+                            </div>
+                            <div class="newsdit">
+                                <h5 class="card-title">Production-ready F77 electric motorcycle unveiled</h5>
+                                <p class="card-text">
+                                    Ultraviolette Automotive recently hosted an exclusive test ride of its electric motorcycle, the F77, with India’s pilot community.
+                                </p>
+                                <h6 class="text-Secondary">1 days ago</h6>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card1 " >
+                        <div class="card-body1">
+                            <div class="newsimg">
+                                <img src="img/right-side-view0.webp" alt="img">
+                            </div>
+                            <div class="newsdit">
+                                <h5 class="card-title">2022 Royal Enfield Interceptor 650 </h5>
+                                <p class="card-text">
+                                    Chinese two-wheeler manufacturer, Zontes Motorcycles, has been working on its upcoming three-cylinder engine. Details for the same are now out and here’s what you should know. 
+                                </p>
+                                <h6 class="text-Secondary">3 days ago</h6>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    <footer>
+        <div id="footsec">
+            <div id="sdgsdf">
+                <div id="socialid">
+                    <div id="join1">
+                        <p id="join">Join us on</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/mohit.saxena.35513/" ><img src="social img/fb.jfif" alt="Facebook" class="socialimg"> </a>
+                        <a href="https://www.instagram.com/rdx_maddy/"><img src="social img/instagram.jfif" alt="Instagram" class="socialimg"></a>
+                        <a href="https://github.com/Mohit6795" target="_blank"><img src="social img/github1.jpg" alt="Github" class="socialimg"></a>
+                        <a href="https://www.linkedin.com/in/rdx-maddy-731934122/"><img src="social img/linkd.png" alt="Linkedin" class="socialimg"></a>
+                        <a href="https://stackoverflow.com/users/19368893/mohit"><img src="social img/stack logo.png" alt="Stackoverflow" class="socialimg"></a>
+                    </div>
+                </div>
+
+                <div id="socialapps">
+                    <div id="join1">
+                        <p id="join">Download Mobile App</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://play.google.com/store/apps/details?id=com.bikewale.app&referrer=utm_source%3DDesktopsite%26utm_medium%3DDrawer%26utm_campaign%3DBikeWale%2520Desktopsite%2520Drawer" ><img src="img/Screenshot 2022-08-17 183654.png" alt="Playstore" class="socialimg1"> </a>
+                        <a href="https://apps.apple.com/us/app/bikewale-buy-new-bike-scooty/id1492806145?ls=1"><img src="img/appllogo.png" alt="App store" class="socialimg1"></a>
+                        
+                    </div>
+                </div>
+            </div>  
+            <div id="allsiteslogo">              
+                <ul id="allsite">
+                    <li class="selectbrand">
+                        <a href="#">
+                            <span class="site1">
+                                <img src="img/bikewale1.png" alt="TVS bikes">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#">
+                            <span class="site1">
+                                <img src="img/carexpert2.png" alt="Bajaj bikes">  
+                            </span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#">
+                            <span class="site1">
+                                <img src="img/cartred3.png" alt="BMW bikes">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#">
+                            <span class="site1">
+                                <img src="img/ouylok4.png" alt="Hero bikes">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#">
+                            <span class="site1">
+                                <img src="img/asure5.png" alt="Honda bikes">
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>    
+            <div id="copyr">
+                <span>Visitor Agreement & Privacy Policy</span>
+                <span id="cop">&copy;BikeWale&smile;</span>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        }
+        // coupon
+        window.onload=loadCoupon()
+    </script>
+</body>
+</html>
