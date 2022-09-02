@@ -7,7 +7,7 @@
     width: 100%;
     overflow: hidden;
     background-color: #333;
-    z-index: 3;
+    z-index: 1;
 }
 
 .navbar-button{
@@ -94,124 +94,8 @@
     transform: scale(1.1);
 
 }
-/* coupon */
-#mycoupon{
-   border: 2px rgb(233, 233, 233) groove;
-    height: 400px;
-    width: 70%;
-    position: absolute;
-    background-image: url(img/Scrambler\ Icon\ Grab\ Rail.jpg);
-    background-size: 100% 400px;
-    z-index: 10;
-    margin-left: 15%;
-    margin-top: 40px;
-    display: none;
-    
-}
 
-#mycoupon>button{
-    background-color: rgba(0, 0, 0, 0.803);
-    border-radius: 8px;
-    color: #ffffff;
-    float: right;   
-}
-#aboutducati{
-    margin-top: 30px;
-    float: left;
-    /* border: #000000 2px solid; */
-    height: 220px;
-    width: 35%;
-}
-#aboutducati>h2{
-    background-color: #ffffff9e;
-    height: 37px;
-    width: 30%;
-    padding: 4px;
-    color: rgba(0, 0, 0, 0.819);
-    font-family: cursive;
-}
-#aboutducati>h2:hover{
-    transform: scale(0.97);
-}
 
-#aboutducati>h3{
-    background-color: #000000c6;
-    height: 33px;
-    width: 71%;
-    font-size: 17px;
-    padding: 4px;
-    padding-top: 7px;
-    font-family: cursive;
-    color: white;
-}
-#aboutducati>h3:hover{
-    transform: scale(0.97);
-}
-#aboutducati>h4{
-    background-color: #ff0000c8;
-    height: 24px;
-    width: 78%;
-    padding: 8px;
-    font-family: cursive;
-    color: white;
-    transition: width 2s, height 4s;
-}
-#aboutducati>h4:hover{
-    transform: scale(0.97);
-}
-#offers{
-    margin-top: 30px;
-    margin-left: 90px;
-    border-radius: 10px;
-    float: left;
-    height: 350px;
-    width: 50%;
-    background-color: #000000c6;
-}
-#offers>img{
-    height: 90px;
-    width: 60%;
-    border-radius: 10px;
-    margin-left: 20%;
-    margin-top: 40px;
-}
-.p1{
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-}
-#offers>p>span{
-    border: 2px solid #bfbfbf;
-    color: #000000;
-    background-color: #bfbfbf;
-    width: 100%;
-    border-radius: 3px;
-}
-.p2{
-    text-align: center;
-    color: #ffff00c6;
-    margin-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
-.buttonoff {
-    background-color: #ffff00c6; /* Green */
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 12px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-weight: 700;
-    margin-left: 35%;
-}
-.buttonoff:hover{
-    transform: scale(0.97);
-}
-  
 /* Search bar CSS */
 
 #searchbar{
@@ -300,7 +184,7 @@
     height: 40px;
     width: 100%;
     /* background-color: white; */
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cccccc7f;
     
 }
 #discoverby{
@@ -409,7 +293,7 @@
     height: 40px;
     width: 100%;
     /* background-color: white; */
-    border-bottom: 1px solid #ccc; 
+    border-bottom: 1px solid #cccccc7f; 
     cursor: pointer;
 }
 #bestfeatured>li{ 
@@ -424,7 +308,8 @@
 }
 .bikedit{
     /* border: 1px solid gray; */
-    border: 2px solid #f6f6f6;
+    border: 1px solid #f0ecec4a;
+    border: 1px solid #918d8d62;
     height: 360px;
     width: 25%; 
     float: left;
@@ -444,7 +329,7 @@
 }
 .bikename{
     text-decoration: none;
-    color: #2a2a2a;
+    /* color: #a69d9d; */
     font-size: 15px;
     font-weight: 600;
     text-align: left;
@@ -609,7 +494,6 @@
     margin-left: 10%;
     margin-top: 100px;
     position: absolute;
-    /* background-color: white; */
     /* border: #000000 1px solid; */
     border: #ffffff8f solid 1px;
     border: #9792928f solid 1px;
@@ -618,7 +502,7 @@
     height: 40px;
     width: 100%;
     /* background-color: white; */
-    border-bottom: 1px solid #ccc; 
+    border-bottom: 1px solid #cccccc7f; 
     cursor: pointer;
 }
 #selectbybest{
@@ -671,9 +555,11 @@
     width: 44%;
     margin-top: 10px;
     position: absolute;
-    border: 2px solid #f6f6f6;
+    /* border: 2px solid #f6f6f6; */
     float: left; 
     margin-left: -10px;
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
     
 }
 #comparebox2{
@@ -682,7 +568,9 @@
     margin-left: 45%;
     margin-top: 10px;
     position: absolute;
-    border: 2px solid #f6f6f6;
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
+
 }
 .compbikeimg1{
     height: 100px;
@@ -717,7 +605,7 @@
 }
 .bikename-1{
     text-decoration: none;
-    color: #2a2a2a;
+    color: #838080;
     font-size: 15px;
     font-weight: 600;
     text-align: left;
@@ -840,13 +728,14 @@
 }
 
 .card{
-    border: 2px solid #f6f6f6;
     float: left;
     height: 180px;
     width: 25%;
     margin-left: 45px;
     margin-top: 80px;
     padding: 10px;
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
 }
 .card-title{
     margin-top: 10px;
@@ -895,6 +784,8 @@
     border: 2px solid #f6f6f6;
     margin-top: 10px;
     padding: 1%;
+    border: #ffffff8f solid 1px;
+    border: #9792928f solid 1px;
 }
 /* CSS For News */
 #news{
@@ -1105,3 +996,121 @@ footer{
 .sticky + .content {
     padding-top: 600px;
 }
+/* coupon */
+#mycoupon{
+   border: 2px rgb(233, 233, 233) groove;
+    height: 400px;
+    width: 70%;
+    position: absolute;
+    background-image: url(img/Scrambler\ Icon\ Grab\ Rail.jpg);
+    background-size: 100% 400px;
+    z-index: 10;
+    margin-left: 15%;
+    margin-top: 40px;
+    display: none;
+    
+}
+
+#mycoupon>button{
+    background-color: rgba(0, 0, 0, 0.803);
+    border-radius: 8px;
+    color: #ffffff;
+    float: right;   
+}
+#aboutducati{
+    margin-top: 30px;
+    float: left;
+    /* border: #000000 2px solid; */
+    height: 220px;
+    width: 35%;
+}
+#aboutducati>h2{
+    background-color: #ffffff9e;
+    height: 37px;
+    width: 30%;
+    padding: 4px;
+    color: rgba(0, 0, 0, 0.819);
+    font-family: cursive;
+}
+#aboutducati>h2:hover{
+    transform: scale(0.97);
+}
+
+#aboutducati>h3{
+    background-color: #000000c6;
+    height: 33px;
+    width: 71%;
+    font-size: 17px;
+    padding: 4px;
+    padding-top: 7px;
+    font-family: cursive;
+    color: white;
+}
+#aboutducati>h3:hover{
+    transform: scale(0.97);
+}
+#aboutducati>h4{
+    background-color: #ff0000c8;
+    height: 24px;
+    width: 78%;
+    padding: 8px;
+    font-family: cursive;
+    color: white;
+    transition: width 2s, height 4s;
+}
+#aboutducati>h4:hover{
+    transform: scale(0.97);
+}
+#offers{
+    margin-top: 30px;
+    margin-left: 90px;
+    border-radius: 10px;
+    float: left;
+    height: 350px;
+    width: 50%;
+    background-color: #000000c6;
+}
+#offers>img{
+    height: 90px;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+.p1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+#offers>p>span{
+    border: 2px solid #bfbfbf;
+    color: #000000;
+    background-color: #bfbfbf;
+    width: 100%;
+    border-radius: 3px;
+}
+.p2{
+    text-align: center;
+    color: #ffff00c6;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.buttonoff {
+    background-color: #ffff00c6; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 35%;
+}
+.buttonoff:hover{
+    transform: scale(0.97);
+}
+  
